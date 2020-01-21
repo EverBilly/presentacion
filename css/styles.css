@@ -45,7 +45,7 @@ a {
   width: 100%;
 }
 .slider__banner .flecha-banner {
-  color: rgba(0, 0, 0, .2);
+  color: #3498db;
   font-size: 35px;
   line-height: 35px;
   position: absolute;
