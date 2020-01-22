@@ -4,8 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Ever Cifuentes">
+  <meta name="description" content="Portafolio Ever Cifuentes">
   <title>Tarjeta de Presentacion</title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/flexboxgrid.min.css">
+  <link rel="shortcut icon" href="img/EC  .ico" />
 </head>
 <body>
 
@@ -13,10 +18,10 @@
     <section class="tarjeta">
       <div class="slider__banner">
         <div class="banner" id="banner">
-          <img class="slide active" src="./img/banner.jpg" alt="banner">
-          <img class="slide" src="./img/banner2.jpg" alt="banner">
           <img class="slide" src="./img/banner3.jpg" alt="banner">
-          <img class="slide" src="./img/banner4.jpg" alt="banner">
+          <img class="slide active" src="./img/webdesign-3411373_1920.jpg" alt="banner">
+          <img class="slide" src="./img/programmer-1653351.jpg" alt="banner">
+          <img class="slide" src="./img/laptop-1512838.jpg" alt="banner">
         </div>
         
         <a href="#" id="banner-prev" class="flecha-banner anterior"><span class="fa fa-chevron-left"></span></a>
@@ -31,37 +36,58 @@
       <section class="informacion" id="informacion">
         <article id="info">  
 
-        <div class="slide active">
-            <h1 class="nombre">Ever Cifuentes</h1>
-            <p class="trabajo">Desarrollador Web</p>
-            <img src="img/iconfinder_Guatemala_92111.png" alt=""> Guatemala
+        <div class="slide active" itemscope itemtype="https://schema.org/Blog">
+            <h1 class="nombre" itemprop="name">Ever Cifuentes</h1>
+            <p class="trabajo" itemprop="description">Web Developer</p>
+            <img src="img/iconfinder_Guatemala_92111.png" alt=""> <p class="pais">Guatemala</p>
           </div>
 
           <div class="slide">
-            <h2 class="subtitulo">Primer Proyecto</h2>
-            <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, aspernatur!</p>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6"><br>
+                <h2 class="subtitulo">Skills</h2>
+                <p class="texto"> Front-End Development</p>
+                <p class="texto"> Bootstrap</p>
+                <p class="texto"> Javascript</p>
+                <p class="texto"> AngularJs</p>
+                <p class="texto"> Laravel</p>
+                <p class="texto"> Html</p>
+                <p class="texto"> Css</p>
+              </div>
+              <div class="col-xs-12 col-sm-6"><br>
+              <h2 class="subtitulo">DataBases</h2>
+              <p class="texto">SQL Server</p>
+              <p class="texto">MySQL</p>
+              </div>
+            </div>
           </div>
 
-          <div class="slide">
+          <!-- <div class="slide">
             <h2 class="subtitulo">Segundo Proyecto</h2>
             <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ducimus ex illo repellat mollitia neque autem. Dolorum quidem eaque nobis.
               <br><br>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, voluptatem corrupti rem quaerat sequi delectus officiis ullam perspiciatis! Fugit, deserunt!
+              lorem100
             </p>
-          </div>
+          </div> -->
         </article>
         <div id="botones" class="botones"></div>
       </section>
       </section>
 
       <section class="redes__sociales">
-        <a href="https://www.facebook.com/everbilly.cifuentestunchez" class="facebook" target="_blank"><span class="fa fa-facebook"></span></a>
-        <a href="https://twitter.com/EverCifuentes" class="twitter" target="_blank"><span class="fa fa-twitter"></span></a>
-        <a href="https://github.com/EverBilly" class="github" target="_blank"><span class="fa fa-github"></span></a>
+        <a href="https://www.facebook.com/everbilly.cifuentestunchez" class="facebook" target="_blank"><span class="fa fa-facebook fa-2x"></span></a>
+
+        <a href="https://twitter.com/EverCifuentes" class="twitter" target="_blank"><span class="fa fa-twitter fa-2x"></span></a>
+
+        <a href="https://www.instagram.com/everbilly/" class="instagram" target="_blank"><span class="fa fa-instagram fa-2x"></span></a>
+
+        <a href="https://github.com/EverBilly" class="github" target="_blank"><span class="fa fa-github fa-2x"></span></a>
+
+        <a href="https://www.linkedin.com/in/ever-billy-cifuentes-419a73156/" class="linkedin" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a>
       </section>
     </section>
   </div>
-
 </body>
 <script src="js/jquery.js"></script>
 <script src="js/main.js"></script>

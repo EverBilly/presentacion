@@ -4,9 +4,11 @@
   padding: 0;
 }
 body {
-  background-image: url('../img/fondohd.png');
-  background-size: cover;
-  background-attachment: fixed;
+background-image: url('https://www.css3maker.com/images/body_bg_new.jpg');
+/* background-image: url('../img/irongrip_@2X.png'); */
+/* background-size: cover; */
+background-attachment: fixed;
+font-family: 'Rubik', sans-serif;
 }
 a { 
   text-decoration: none;
@@ -20,8 +22,10 @@ a {
   width: 90%;
 }
 .tarjeta {
-  background: #fff;
+  /* background: #EEEEEF; */
+  background: rgba(113, 137, 131, 0.4);
   border-radius: 10px;
+  border: 1px #fff solid;
   margin: 40px 0;
   overflow: hidden;
   width: 100%;
@@ -45,7 +49,7 @@ a {
   width: 100%;
 }
 .slider__banner .flecha-banner {
-  color: #3498db;
+  color:#8CA6BC;
   font-size: 35px;
   line-height: 35px;
   position: absolute;
@@ -53,7 +57,7 @@ a {
   z-index: 1100;
 }
 .slider__banner .flecha-banner:hover {
-  color: rgba(0, 0, 0, .5);
+  color: #1e3882;
 }
 .slider__banner .anterior {
   left: 20px;
@@ -83,14 +87,15 @@ a {
   vertical-align: middle;
 }
 .slider__info .informacion article .slide {
-  background: #fff;
+  /* background: #EEEEEF; */
+  background: rgba(56, 35, 68, 0);
   left: 100%;
   padding: 20px 80px;
   position: absolute;
   width: 100%;
 }
 .slider__info .flecha-info {
-  color: #e6e6e6;
+  color:#8CA6BC;
   font-size: 35px;
   line-height: 35px;
   position: absolute;
@@ -98,7 +103,7 @@ a {
   z-index: 1000;
 }
 .slider__info .flecha-info:hover {
-  color: #6ed279;
+  color: #1e3888;
 }
 .slider__info .flecha-info.anterior {
   left: 20px;
@@ -107,21 +112,25 @@ a {
   right: 20px;
 }
 .slider__info .informacion .nombre {
-  color: #444;
+  color: #f5f6fa;
   font-size: 38px;
   line-height: 38px;
   margin-bottom: 16px;
 }
 .slider__info .informacion .trabajo {
   color: #55acee;
-  font-size: 18px;
+  font-size: 25px;
+  font-weight: 600;
   line-height: 18px;
   margin-bottom: 16px;
 }
 .slider__info .informacion .pais {
-  color: #8d8d8d;
-  font-size: 14px;
+  color: #55acee;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
   line-height: 14px;
+  vertical-align: middle;
 }
 .slider__info .informacion .pais img{
   position: relative;
@@ -133,7 +142,7 @@ a {
   font-size: 18px;
 }
 .slider__info .informacion .subtitulo {
-  color: #444;
+  color: #fff;
   font-size: 18px;
   line-height: 24px;
   line-height: 24px;
@@ -165,20 +174,19 @@ a {
   border-radius: 50%;
   color: #fff;
   display: inline-block;
-  height: 50px;
-  line-height: 20px;
+  height: 60px;
   margin: 0 10px;
   padding: 14px 0;
-  width: 50px;
+  width: 60px;
 }
-.redes__sociales .facebook { background: #3b5998; }
-.redes__sociales .twitter { background: #55acee; }
-.redes__sociales .facebook:hover {
-  background: #2980b9;
-}
-.redes__sociales .twitter:hover {
-  background: #3498db;
-}
-.redes__sociales .github:hover {
-  background: #2c3e50;
-}
+.redes__sociales .facebook { background: rgba(59, 89, 152, .7); }
+.redes__sociales .twitter { background: rgba(85, 172, 238, .5); }
+.redes__sociales .linkedin { background: rgba(0, 123, 181, .5); }
+.redes__sociales .instagram { background: rgba(231, 76, 60, .6); }
+.redes__sociales .github { background: rgba(0, 0, 0, .5); }
+
+.redes__sociales .facebook:hover { background: #2980b9;}
+.redes__sociales .twitter:hover { background: #3498db;}
+.redes__sociales .github:hover { background: #2c3e50;}
+.redes__sociales .linkedin:hover {background: #7099f2;}
+.redes__sociales .instagram:hover {background: #e95950;}
